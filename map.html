@@ -9,11 +9,11 @@
 <body class="bg-gray-100">
   <div class="flex h-screen">
     <!-- Sidebar -->
-    <aside class="w-64 bg-gray-800 text-white p-4">
+    <aside class="w-64 bg-gray-800 text-white p-4 flex flex-col h-screen">
       <h2 class="text-2xl font-bold bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent">
         Students Tracker
       </h2>
-      <nav class="mt-6">
+      <nav class="flex-grow">
         <!-- Map -->
         <a href="#" class="block py-4 px-4 bg-gray-700 flex items-center gap-2 text-white">
           <svg fill="white" width="20px" height="20px" viewBox="0 0 32 32" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg">
@@ -39,6 +39,9 @@
           Profile
         </a>
       </nav>
+      <button class="bg-orange-600 text-white py-2 rounded-lg w-full mt-auto">
+        Logout
+    </button>
     </aside>
 
     <!-- Main Content -->
