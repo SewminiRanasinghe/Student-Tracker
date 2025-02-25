@@ -3,82 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Profile Tracker</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100">
-    <div class="flex h-screen">
-        <aside class="w-64 bg-gray-800 text-white p-4">
-            <h2 class="text-2xl font-bold bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent"">Students Tracker</h2>
-            <nav class="mt-6">
-                <a href="map.html" class="block py-4 px-4 hover:bg-gray-700 flex items-center gap-2 text-white">
-                    <svg fill="white" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16.114-0.011c-6.559 0-12.114 5.587-12.114 12.204 0 6.93 6.439 14.017 10.77 18.998 0.017 0.020 0.717 0.797 1.579 0.797h0.076c0.863 0 1.558-0.777 1.575-0.797 4.064-4.672 10-12.377 10-18.998 0-6.618-4.333-12.204-11.886-12.204zM16.515 29.849c-0.035 0.035-0.086 0.074-0.131 0.107-0.046-0.032-0.096-0.072-0.133-0.107l-0.523-0.602c-4.106-4.71-9.729-11.161-9.729-17.055 0-5.532 4.632-10.205 10.114-10.205 6.829 0 9.886 5.125 9.886 10.205 0 4.474-3.192 10.416-9.485 17.657zM16.035 6.044c-3.313 0-6 2.686-6 6s2.687 6 6 6 6-2.687 6-6-2.686-6-6-6zM16.035 16.044c-2.206 0-4.046-1.838-4.046-4.044s1.794-4 4-4c2.207 0 4 1.794 4 4 0.001 2.206-1.747 4.044-3.954 4.044z"></path>
-                    </svg>Map</a>
-                <a href="students.html" class="block py-4 px-4 hover:bg-gray-700 flex items-center gap-2 text-white" >
-                    <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-                    <g id="SVGRepo_iconCarrier"> <path d="M12.001 9H12.011M15.001 19L17.001 21L21.001 17M9.17188 15C9.58371 13.8348 10.695 13 12.0012 13C13.3074 13 14.4186 13.8348 14.8305 15M20 13V7.2C20 6.0799 20 5.51984 19.782 5.09202C19.5903 4.71569 19.2843 4.40973 18.908 4.21799C18.4802 4 17.9201 4 16.8 4H7.2C6.0799 4 5.51984 4 5.09202 4.21799C4.71569 4.40973 4.40973 4.71569 4.21799 5.09202C4 5.51984 4 6.07989 4 7.2V16.8C4 17.9201 4 18.4802 4.21799 18.908C4.40973 19.2843 4.71569 19.5903 5.09202 19.782C5.51984 20 6.07989 20 7.2 20H11.001M13.001 9C13.001 9.55228 12.5533 10 12.001 10C11.4487 10 11.001 9.55228 11.001 9C11.001 8.44772 11.4487 8 12.001 8C12.5533 8 13.001 8.44772 13.001 9Z" stroke="#fcfcfc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
-                    </svg>Students</a>
-                <a href="profile.html" class="block py-4 px-4 bg-gray-700 flex items-center gap-2 text-white">
-                    <svg width="20px"  height="20px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
-                    <circle cx="8" cy="6" r="3.25"/><path d="m2.75 14.25c0-2.5 2-5 5.25-5s5.25 2.5 5.25 5"/></svg>Profile
-                </a>
-            </nav>
-        </aside>
-        <main class="flex-1 p-6">
-            <div class="flex justify-between items-center">
-                <h2 class="text-lg font-semibold">My profile</h2>
-                <div class="flex gap-3">
-                    <button id="editButton" class="bg-gray-200 text-gray-600 px-4 py-2 rounded flex items-center gap-2">
-                        Edit<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M21.1213 2.70705C19.9497 1.53548 18.0503 1.53547 16.8787 2.70705L15.1989 4.38685L7.29289 12.2928C7.16473 12.421 7.07382 12.5816 7.02986 12.7574L6.02986 16.7574C5.94466 17.0982 6.04451 17.4587 6.29289 17.707C6.54127 17.9554 6.90176 18.0553 7.24254 17.9701L11.2425 16.9701C11.4184 16.9261 11.5789 16.8352 11.7071 16.707L19.5556 8.85857L21.2929 7.12126C22.4645 5.94969 22.4645 4.05019 21.2929 2.87862L21.1213 2.70705ZM18.2929 4.12126C18.6834 3.73074 19.3166 3.73074 19.7071 4.12126L19.8787 4.29283C20.2692 4.68336 20.2692 5.31653 19.8787 5.70705L18.8622 6.72357L17.3068 5.10738L18.2929 4.12126ZM15.8923 6.52185L17.4477 8.13804L10.4888 15.097L8.37437 15.6256L8.90296 13.5112L15.8923 6.52185ZM4 7.99994C4 7.44766 4.44772 6.99994 5 6.99994H10C10.5523 6.99994 11 6.55223 11 5.99994C11 5.44766 10.5523 4.99994 10 4.99994H5C3.34315 4.99994 2 6.34309 2 7.99994V18.9999C2 20.6568 3.34315 21.9999 5 21.9999H16C17.6569 21.9999 19 20.6568 19 18.9999V13.9999C19 13.4477 18.5523 12.9999 18 12.9999C17.4477 12.9999 17 13.4477 17 13.9999V18.9999C17 19.5522 16.5523 19.9999 16 19.9999H5C4.44772 19.9999 4 19.5522 4 18.9999V7.99994Z" fill="#000000"/>
-                        </svg></button>
-                    <button id="saveButton" class="bg-gray-200 text-gray-600 px-4 py-2 rounded flex items-center gap-2">Save
-                        <svg fill="#000000" width="20px" height="20px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M790.706 338.824v112.94H395.412c-31.06 0-56.47 25.3-56.47 56.471v744.509c17.73-6.325 36.592-10.391 56.47-10.391h1129.412c19.877 0 38.738 4.066 56.47 10.39V508.236c0-31.171-25.412-56.47-56.47-56.47h-395.295V338.824h395.295c93.402 0 169.411 76.009 169.411 169.411v1242.353c0 93.403-76.01 169.412-169.411 169.412H395.412C302.009 1920 226 1843.99 226 1750.588V508.235c0-93.402 76.01-169.411 169.412-169.411h395.294Zm734.118 1016.47H395.412c-31.06 0-56.47 25.299-56.47 56.47v338.824c0 31.172 25.41 56.47 56.47 56.47h1129.412c31.058 0 56.47-25.298 56.47-56.47v-338.823c0-31.172-25.412-56.47-56.47-56.47ZM1016.622-.023v880.151l246.212-246.325 79.85 79.85-382.532 382.644-382.645-382.644 79.85-79.85L903.68 880.128V-.022h112.941ZM564.824 1468.235c-62.344 0-112.942 50.71-112.942 112.941s50.598 112.942 112.942 112.942c62.343 0 112.94-50.71 112.94-112.942 0-62.23-50.597-112.94-112.94-112.94Z" fill-rule="evenodd"/>
-                        </svg>
-                    </button>
-                    <button id="logoutButton" class="bg-orange-600 text-white px-4 py-2 rounded flex items-center gap-2">Logout</button>
-                </div>
-            </div>
+<div class="flex flex-col h-screen md:flex-row">
+    <!-- Sidebar -->
+    <aside class="w-full md:w-64 bg-gray-800 text-white p-4 flex flex-col">
+        <h2 class="text-2xl font-bold bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent">
+            Students Tracker
+        </h2>
+        <nav class="flex-grow">
+            <a href="map.html" class="block py-4 px-2 md:px-4 hover:bg-gray-700 flex items-center gap-2 text-white">
+                Map
+            </a>
+            <a href="students.html" class="block py-4 px-2 md:px-4 hover:bg-gray-700 flex items-center gap-2 text-white">
+                Students
+            </a>
+            <a href="profile.html" class="block py-4 px-2 md:px-4 bg-gray-700 flex items-center gap-2 text-white">
+                Profile
+            </a>
+        </nav>
+        <button class="bg-orange-600 text-white py-2 rounded-lg w-full mt-auto">
+            Logout
+        </button>
+    </aside>
 
-            <div class="bg-white p-6 mt-6 rounded shadow">
-                <form id="profileForm">
-                    <div class="grid grid-cols-2 gap-4">
-                        <div>
-                            <label class="block text-gray-700">Title</label>
-                            <input type="text" id="title" class="profile-input w-full p-2 border rounded bg-gray-100" readonly>
-                        </div>
-                        <div>
-                            <label class="block text-gray-700">Full Name</label>
-                            <input type="text" id="fullName" class="profile-input w-full p-2 border rounded bg-gray-100" readonly>
-                        </div>
-                        <div>
-                            <label class="block text-gray-700">Gender</label>
-                            <input type="text" id="gender" class="profile-input w-full p-2 border rounded bg-gray-100" readonly>
-                        </div>
-                        <div>
-                            <label class="block text-gray-700">Contact No.</label>
-                            <input type="text" id="contactNo" class="profile-input w-full p-2 border rounded bg-gray-100" readonly>
-                        </div>
-                        <div>
-                            <label class="block text-gray-700">Position</label>
-                            <input type="text" id="position" class="profile-input w-full p-2 border rounded bg-gray-100" readonly>
-                        </div>
-                        <div>
-                            <label class="block text-gray-700">Time Zone</label>
-                            <input type="text" id="timeZone" class="profile-input w-full p-2 border rounded bg-gray-100" readonly>
-                        </div>
-                        <div class="col-span-2">
-                            <label class="block text-gray-700">Email</label>
-                            <input type="email" id="email" class="profile-input w-full p-2 border rounded bg-gray-100" readonly>
-                        </div>
+    <!-- Main Content -->
+    <div class="flex-1 p-4 md:p-6">
+        <div class="bg-white p-4 shadow-md rounded-lg">
+            <h3 class="text-xl font-bold">Profile</h3>
+            <p class="text-gray-500">Update your profile information here.</p>
+            <form class="mt-4">
+                <div class="flex flex-col space-y-4">
+                    <div>
+                        <label for="name" class="block text-sm font-medium">Name</label>
+                        <input type="text" id="name" class="mt-1 w-full border px-3 py-2" placeholder="Enter your name">
                     </div>
-                </form>
-            </div>
-        </main>
+                    <div>
+                        <label for="email" class="block text-sm font-medium">Email</label>
+                        <input type="email" id="email" class="mt-1 w-full border px-3 py-2" placeholder="Enter your email">
+                    </div>
+                    <div>
+                        <label for="phone" class="block text-sm font-medium">Phone</label>
+                        <input type="tel" id="phone" class="mt-1 w-full border px-3 py-2" placeholder="Enter your phone number">
+                    </div>
+                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg">Save Changes</button>
+                </div>
+            </form>
+        </div>
     </div>
+</div>
 
     <script>
         // Load saved profile details
