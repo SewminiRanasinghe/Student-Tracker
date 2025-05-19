@@ -32,6 +32,9 @@ This app addresses a common challenge during school outings — keeping track of
 Created by Sewmini Ranasinghe, an undergraduate passionate about applying technology to solve practical, people-focused problems.
 
 Feel free to connect:
+
 Email: sewmini1010@gmail.com
+
 GitHub: github.com/SewminiRanasinghe
+
 LinkedIn: linkedin.com/in/sewmini-ranasinghe
