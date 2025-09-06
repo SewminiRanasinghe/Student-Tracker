@@ -33,7 +33,10 @@ Created by Sewmini Ranasinghe, Kaveesha Dharmaratne and Shamiru Eshan , undergra
 
 Feel free to connect:
 
-GitHub: https://github.com/SewminiRanasinghe
-        https://github.com/ShamiruEshan
-        https://github.com/KaveeshaDharmaratne
+GitHub: 
+https://github.com/SewminiRanasinghe
+        
+https://github.com/ShamiruEshan
+        
+https://github.com/KaveeshaDharmaratne
 
