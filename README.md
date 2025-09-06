@@ -29,12 +29,11 @@ This app addresses a common challenge during school outings — keeping track of
 - Offline mode for areas with low connectivity
 
 ## About the Developer
-Created by Sewmini Ranasinghe, an undergraduate passionate about applying technology to solve practical, people-focused problems.
+Created by Sewmini Ranasinghe, Kaveesha Dharmaratne and Shamiru Eshan , undergraduates passionate about applying technology to solve practical, people-focused problems.
 
 Feel free to connect:
 
-Email: sewmini1010@gmail.com
+GitHub: https://github.com/SewminiRanasinghe
+        https://github.com/ShamiruEshan
+        https://github.com/KaveeshaDharmaratne
 
-GitHub: github.com/SewminiRanasinghe
-
-LinkedIn: linkedin.com/in/sewmini-ranasinghe
